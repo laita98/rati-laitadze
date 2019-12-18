@@ -1,4 +1,4 @@
-require_relative 'sandrodavadze'
+require_relative 'toka'
 
 
 reader=Csvreader.new
@@ -17,6 +17,6 @@ reader.students.each do |x|
 end
 puts reader.total_debt_in_data
 p h2
-CSV.foreach('studentsname.csv', headers: true) do |row|
+CSV.foreach('faile.csv', headers: true) do |row|
   puts h2[row["NAME"]]
 end
